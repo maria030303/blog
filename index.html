@@ -1,34 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análise de Gatos: Comportamento e Personalidade/title>
+    <title>Análise de Gatos: Comportamento e Personalidade</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav> 
-        <ul class="nav">
-            <li class="'nav"><a href="#">sobre</a></a></li>
-            <li class="nav"><a href="#">Gatos mais raros do mundo</a></li>
-            <li class="nav"><a href="#"></a></li>
-        </ul>
-        <img src="icon.png" alt="falha ao carregar" style="width: 50px; height: 50px;">
-    </nav>  
-    <div class="content">
-        <h2>Gato Munchkin</h2>
-       <p>Conhecido como “gato anão”, o Munchkin é um gato de pernas curtas - a perna dessa raça costuma ter metade do tamanho esperado em um gato comum - e eles têm as costas geralmente um pouco mais longas. Ele é frequentemente comparado com a raça de cães dachshund. É muito comum vê-los andando com as pernas dianteiras recolhidas, já que as patas traseiras costumam ser um pouco maiores. Além de sua aparência exótica, os gatos da raça Munchkin são muito amáveis, doces e inteligentes, que gostam de demonstrar seu afeto.</p>
-       </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Análise de Gatos: Comportamento e Personalidade</h1>
+    </header>
 
-       <div class="content">
-        <h2>Gato Sphynx</h2>
-        <p>Os Sphynx surgiram devido a uma mutação de genes e sua característica mais marcante, a falta de pelos, se dá devido a isto. Por se tornarem muito populares, a raça foi mantida e, hoje, são bastante conhecidos.</p>
-       </div>
+    <section id="home" class="home">
+        <h2>Bem-vindo ao nosso site!</h2>
+        <p>Aqui você encontrará análises detalhadas e fofas sobre gatos exóticos. Descubra mais sobre suas personalidades, comportamentos e muito mais!</p>
+    </section>
 
-       <div class="content">
-      <h2>Gato LaPerm</h2>
-      <p>O LaPerm é um gato com aparência bastante característica, sua pelagem encaracolada o destaca de qualquer outra raça, lembrando muitas vez um Poodle do mundo felino. Além da aparência incomum, o LaPerm é um gatinho muito carinhoso e dócil. O resultado dessa pelagem ondulada é uma mutação genética que aconteceu lá em 1982, nos Estados Unidos, quando uma gata deu à luz a um filhote sem pelos e com orelhas grandes. Esse filhote chamou a atenção das pessoas e com o passar dos dias foi desenvolvendo pelos enrolados.</p>
-    </div>
-    </body>
+    <section id="about" class="about">
+        <h2>Sobre os Gatos Exóticos</h2>
+        <p>Os gatos exóticos são fascinantes e possuem características únicas. Vamos explorar algumas das raças mais populares e suas personalidades!</p>
+        <div class="cat-info">
+            <img src="siamese.jpg" alt="Gato Siamês">
+            <h3>Siamês</h3>
+            <p>O Siamês é conhecido por sua aparência elegante e sua personalidade vocal e afetuosa. Eles são muito sociáveis e adoram interagir com seus donos.</p>
+        </div>
+        <div class="cat-info">
+            <img src="persian.jpg" alt="Gato Persa">
+            <h3>Persa</h3>
+            <p>Os Persas são gatos calmos e amorosos, com pelagens longas e luxuosas. Eles preferem ambientes tranquilos e são bastante afeições.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery-grid">
+            <img src="bengal.jpg" alt="Gato Bengal">
+            <img src="mainecoon.jpg" alt="Gato Maine Coon">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
+        <p>Se você tiver dúvidas ou quiser compartilhar suas experiências com gatos exóticos, entre em contato conosco!</p>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Análise de Gatos. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
-
-
