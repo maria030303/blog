@@ -91,6 +91,6 @@ footer {
     width: 100%;
 }
 
-#footer{
-    margin: 16px;
+.contact {
+    padding-bottom: 60px;
 }
