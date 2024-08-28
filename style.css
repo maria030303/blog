@@ -90,3 +90,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#footer{
+    margin: 16px;
+}
